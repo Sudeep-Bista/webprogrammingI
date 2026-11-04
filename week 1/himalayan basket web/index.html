@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himalayan Basket Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header>
+        <h2>Himalayan Basket</h2>
+        <p>Admin Dashboard</p>
+    </header>
+
+
+    <nav>
+        <a href="#">Dashboard</a>
+        <a href="#">Products</a>
+        <a href="#">Orders</a>
+        <a href="#">Customers</a>
+        <a href="#">Settings</a>
+    </nav>
+
+    
+    <main>
+        <h1>Welcome to Himalayan Basket!</h1>
+        <p>Manage your online store from here.</p>
+
+    
+        <section class="dashboard">
+
+            <div class="card">
+                <h3>Total Sales</h3>
+                <h2>NPR 50,000</h2>
+            </div>
+
+            <div class="card">
+                <h3>Total Orders</h3>
+                <h2>120</h2>
+            </div>
+
+            <div class="card">
+                <h3>Total Products</h3>
+                <h2>35</h2>
+            </div>
+
+            <div class="card">
+                <h3>Total Customers</h3>
+                <h2>85</h2>
+            </div>
+
+        </section>
+
+    
+        <h2>Our Products</h2>
+
+        <section class="products">
+
+            <div class="product">
+                <h3>Organic Lentils</h3>
+                <p>Price: NPR 180</p>
+                <button onclick="showMessage('Organic Lentils')">
+                    View Product
+                </button>
+            </div>
+
+            <div class="product">
+                <h3>Himalayan Timur</h3>
+                <p>Price: NPR 250</p>
+                <button onclick="showMessage('Himalayan Timur')">
+                    View Product
+                </button>
+            </div>
+
+            <div class="product">
+                <h3>Wild Honey</h3>
+                <p>Price: NPR 500</p>
+                <button onclick="showMessage('Wild Honey')">
+                    View Product
+                </button>
+            </div>
+
+        </section>
+
+        
+        <h2>Recent Orders</h2>
+
+        <table>
+            <tr>
+                <th>Order ID</th>
+                <th>Customer</th>
+                <th>Product</th>
+                <th>Amount</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>101</td>
+                <td>Ram Sharma</td>
+                <td>Lentils</td>
+                <td>NPR 180</td>
+                <td>Delivered</td>
+            </tr>
+
+            <tr>
+                <td>102</td>
+                <td>Sita Thapa</td>
+                <td>Timur</td>
+                <td>NPR 250</td>
+                <td>Pending</td>
+            </tr>
+
+            <tr>
+                <td>103</td>
+                <td>Hari Bista</td>
+                <td>Honey</td>
+                <td>NPR 500</td>
+                <td>Processing</td>
+            </tr>
+        </table>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Himalayan Basket | Made with love in Nepal ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
