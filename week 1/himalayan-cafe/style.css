@@ -1,0 +1,154 @@
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5ef;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #5b3825;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f4c27a;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ead7c3;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+/* Common Sections */
+.section {
+    padding: 40px 10%;
+}
+
+.section h2 {
+    color: #5b3825;
+    margin-bottom: 15px;
+}
+
+.section p {
+    margin-bottom: 10px;
+}
+
+/* Horizontal Line */
+hr {
+    border: 0;
+    border-top: 1px solid #d5c4b5;
+}
+
+/* Buttons */
+button {
+    background-color: #8b4513;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+button:hover {
+    background-color: #5b3825;
+}
+
+/* Menu */
+.menu-buttons {
+    margin: 15px 0;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 200px;
+    box-shadow: 0 2px 6px #00000015;
+}
+
+.menu-item h3 {
+    color: #8b4513;
+}
+
+.menu-item h4 {
+    margin-top: 10px;
+}
+
+/* Contact Form */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Footer */
+footer {
+    background-color: #5b3825;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    .section {
+        padding: 30px 6%;
+    }
+}

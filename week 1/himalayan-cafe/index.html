@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Himalayan Cafe</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <header>
+        <h1>Himalayan Cafe</h1>
+        <p>A Taste of Nepal</p>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    
+    <div class="hero" id="home">
+
+        <h2 id="welcome">Welcome to Himalayan Cafe</h2>
+
+        <p>
+            Experience the authentic taste of Nepal.
+            Enjoy traditional food, coffee and tea.
+        </p>
+
+        <button onclick="showMessage()">
+            Explore More
+        </button>
+
+    </div>
+
+    <hr>
+
+    <div class="section" id="about">
+
+        <h2>About Our Cafe</h2>
+
+        <p>
+            Himalayan Cafe is a place where traditional
+            Nepali culture meets modern cafe experiences.
+        </p>
+
+        <p>
+            We serve delicious food and beverages
+            prepared with fresh ingredients.
+        </p>
+
+        <br>
+
+        <h3>Why Choose Us?</h3>
+
+        <ul>
+            <li>Fresh and quality ingredients</li>
+            <li>Traditional Nepali taste</li>
+            <li>Friendly environment</li>
+            <li>Affordable prices</li>
+        </ul>
+
+    </div>
+
+    <hr>
+
+    
+    <div class="section" id="menu">
+
+        <h2>Our Menu</h2>
+
+        <p>Explore our popular food and beverages.</p>
+
+        <div class="menu-buttons">
+            <button onclick="filterMenu('all')">All</button>
+            <button onclick="filterMenu('food')">Food</button>
+            <button onclick="filterMenu('drink')">Drinks</button>
+        </div>
+
+        <div class="menu-container">
+
+            <div class="menu-item" data-category="food">
+                <h3>Momo</h3>
+                <p>Traditional Nepali dumplings.</p>
+                <h4>Rs. 150</h4>
+            </div>
+
+            <div class="menu-item" data-category="food">
+                <h3>Dal Bhat</h3>
+                <p>Traditional Nepali meal.</p>
+                <h4>Rs. 250</h4>
+            </div>
+
+            <div class="menu-item" data-category="drink">
+                <h3>Milk Tea</h3>
+                <p>Fresh Nepali milk tea.</p>
+                <h4>Rs. 40</h4>
+            </div>
+
+            <div class="menu-item" data-category="drink">
+                <h3>Black Coffee</h3>
+                <p>Freshly prepared coffee.</p>
+                <h4>Rs. 100</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="section">
+
+        <h2>Opening Hours</h2>
+
+        <p>Sunday - Friday: 8 AM - 8 PM</p>
+        <p>Saturday: 9 AM - 6 PM</p>
+
+    </div>
+
+    <hr>
+
+    
+    <div class="section" id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>Email: himalayancafe@example.com</p>
+
+        <p>Location: Kathmandu, Nepal</p>
+
+        <br>
+
+        <h3>Send Us a Message</h3>
+
+        <form id="contactForm">
+
+            <input type="text" id="name"
+                placeholder="Enter your name" required>
+
+            <input type="email" id="email"
+                placeholder="Enter your email" required>
+
+            <br><br>
+
+            <textarea id="message"
+                placeholder="Write your message"
+                required></textarea>
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+        <p id="response"></p>
+
+    </div>
+
+    <hr>
+
+    
+    <footer>
+
+        <h3>Himalayan Cafe</h3>
+
+        <p>Serving happiness with every cup.</p>
+
+        <p>&copy; 2026 Himalayan Cafe.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
